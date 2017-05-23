@@ -1,5 +1,5 @@
 CREATE USER 'pydio'@'localhost' IDENTIFIED BY 'GWN6phWMeHW2VTnQ';
-GRANT ALL PRIVILEGES ON * . * TO 'pydio'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'pydio'@'%';
 FLUSH PRIVILEGES;
 
 
