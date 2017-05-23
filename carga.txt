@@ -1,0 +1,10 @@
+# Pydio Community repositories
+echo "deb https://download.pydio.com/pub/linux/debian/ jessie-backports main" > /etc/apt/sources.list.d/pydio.list
+wget -qO - https://download.pydio.com/pub/linux/debian/key/pubkey | sudo apt-key add -
+
+sudo apt-get install apt-transport-https
+sudo apt-get update
+
+
+sudo apt-get install pydio
+sudo apt-get install pydio-all
